@@ -1,0 +1,41 @@
+.statistics {
+  padding-top: 30px;
+}
+.title {
+  text-align: center;
+  font-family: Dancing Script;
+  font-weight: 700;
+  font-size: 45px;
+}
+.content_container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.content {
+  font-family: Roboto;
+  font-size: 22px;
+  color: rgb(66, 66, 66);
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+.total {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.total_content {
+  font-family: Roboto;
+  font-size: 22px;
+  color: rgb(66, 66, 66);
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.value {
+  font-size: 28px;
+  color: tomato;
+}
